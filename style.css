@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#images {
+    display: flex;
+    width: 100vw;
+}
+
+#top-image, #bottom-image {
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#main {
+    max-width: 100vh;
+    flex-flow: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    text-transform: uppercase;
+    color:#6C63FF;  
+    font-size: 40px;
+    font-weight: 500px;
+    letter-spacing: 5px;
+}
+
+#main-table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#methods {
+    font-size: 15px;
+    color: #C8C8C8;
+}
+
+#countdown {
+    color:#4D4C59;
+    font-size: 90px;
+}
+
+
+#subscription {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#subscription p {
+    color: #9C9AB6;
+    margin-bottom: 30px;
+    font-weight: 400px;
+}
+
+#subscription button {
+    font-size: 20px;
+    font-weight: 300px;
+    cursor: pointer;
+    color: white;
+    background-color:#6C63FF;
+    margin: auto;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-in 0;
+    outline: none;
+}
+
+#subscription button:hover {
+    background-color:#9A94FF;
+}
+
+#subscription button:active {
+    background-color:#4E44FC;
+}
+
